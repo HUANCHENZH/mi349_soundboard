@@ -2,6 +2,7 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
     <title>MI349-Soundboard</title>
 </head>
@@ -12,19 +13,16 @@
 
 <div class="soundDisplay">
     
-    <button onclick="arrow()">
+    <button onclick="arrow()" onmouseenter="arrowenter()" >
         Arrow
-        <audio id="arrowsound" src="arrow_x.wav"></audio>
     </button>
      
-    <button onclick="bomb()">
+    <button onclick="bomb()" onmouseenter="bombenter()" >
         Bomb
-        <audio id="bombsound" src="bomb_x.wav"></audio>
     </button>
 
-    <button onclick="dis()">
+    <button onclick="dis()" onmouseenter="disenter()">
         Dsiconnect
-        <audio id="dissound" src="disconnect_x.wav"></audio>
     </button>
 </div>
 
@@ -32,7 +30,10 @@
     <h2><img src="cute.GIF" alt="CtueCat!" width="128" height="128" /> </h2> 
 </section>
 
-
+<audio id="bosound" src="boing_x.wav"></audio>
+<audio id="arrowsound" src="arrow_x.wav"></audio>
+<audio id="bombsound" src="bomb_x.wav"></audio>
+<audio id="dissound" src="disconnect_x.wav"></audio>
 <script src="soundboard.js"></script>
  <!--JS just before the closing </body> tag-->
 </body>
