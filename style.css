@@ -1,0 +1,28 @@
+html {
+    background: rgb(252, 252, 252);
+}
+
+body {
+    font-family: 'Times New Roman', Times, serif;
+    margin: 40px;
+    padding: 40px;
+    color: #242424;
+    border-top: 10px solid #242424;
+    border-bottom: 10px solid #242424;
+    background: rgb(110, 248, 106);
+}
+
+h1 {
+    font-size: 3em;
+    margin: 0;
+    
+}
+
+.soundDisplay {
+    text-align: center;
+}
+
+
+#cutecat {
+    display: flex ;
+}
